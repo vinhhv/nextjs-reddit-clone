@@ -1,6 +1,6 @@
 import HeaderAuth from "@/components/header-auth";
+import SearchInput from "@/components/search-input";
 import {
-  Input,
   Navbar,
   NavbarBrand,
   NavbarContent,
@@ -18,7 +18,7 @@ export default function Header() {
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>
-          <Input />
+          <SearchInput />
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
